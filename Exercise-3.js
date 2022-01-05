@@ -1,0 +1,13 @@
+let s;
+let p;
+let inputRadius;
+let r;
+inputRadius = prompt("Enter a radius");
+r = parseInt(inputRadius);
+s = r * r * 3.14;
+p = 2 * 3.14 * r;
+document.write("Radius: " + r);
+document.write("<br>");
+document.write("Perimeter of Circle: " + p);
+document.write("<br>");
+document.write("Area of Circle: " + s);
